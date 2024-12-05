@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS jogos (
+    id SERIAL NOT NULL,
+    name VARCHAR(50) NOT NULL,
+    gender CHAR(10) NOT NULL,
+    CONSTRAINT pk_jogo PRIMARY KEY (id)
+);
+
